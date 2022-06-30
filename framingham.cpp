@@ -40,7 +40,7 @@ public:
 };
 
 
-//Calculate risk based on risk factors
+//Calculate risk based on risk factors using a formula taken directly from the Framingham Heart Foundation
 void calculateRisk(string genderInput, int ageInput, double totalCholesterolInput, double HDLInput,
 	double SBPInput, string HTN, string SmokingStatus, double risk)
 {
@@ -153,7 +153,8 @@ void calculateRisk(string genderInput, int ageInput, double totalCholesterolInpu
 	}
 };
 
-//display options to the user
+//display options to the user. This will allow them to select from a menu and choose how they want to input their 
+//demographics to calculate their risk of the heart disease
 char displayMenu()
 {
 	char choice;

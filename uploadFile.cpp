@@ -1,3 +1,10 @@
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <math.h>
+#include <cmath>
+
 //upload a file with information
 void uploadFile(string fileName, vector<string>& gender, vector<int>& age, vector<int>& totalCholesterol,
 	vector<double>& HDL, vector<double>& SBP, vector<string>& HTN, vector<string>& smokingStatus)

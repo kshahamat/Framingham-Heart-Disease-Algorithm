@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <math.h>
+#include <cmath>
+
+
 //input the risk factors to the console
 void consoleInput(vector<string>& gender, vector<int>& age, vector<int>& totalCholesterol, vector<double>& HDL,
 	vector<double>& SBP, vector<string>& HTN, vector<string>& smokingStatus, vector<double>& riskDecided)

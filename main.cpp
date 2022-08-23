@@ -1,3 +1,43 @@
+/Framingham Risk Project
+
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+//declare variables
+vector<string> gender;
+vector<int> age;
+vector<int> totalCholesterol;
+vector<double> HDL;
+vector <double> SBP;
+vector <string> HTN;
+vector <string> smokingStatus;
+vector <double> riskDecided;
+double risk;
+
+//declare factor set
+class FactorSet {
+	friend ostream& operator<<(ostream& os, const FactorSet& rhsObj);
+
+	FactorSet* next;
+
+private:
+	char gender;
+
+public:
+	//all member functions for this class are public   
+	FactorSet();
+	FactorSet(char gen);
+	FactorSet(const FactorSet& rhs);
+	string uploadFile(string filename);
+	string uploadConsole(string filename);
+};
+
+
 int main()
 {
 	char userChoice = displayMenu();

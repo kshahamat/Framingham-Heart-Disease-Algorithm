@@ -1,3 +1,10 @@
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <math.h>
+#include <cmath>
+
 //print all data
 void printAll(const vector<string>& gender, const vector<int>& age, const vector<int>& totalCholesterol, const vector<double>& HDL, const vector <double>& SBP,
 	const vector <string>& HTN, const vector<string>& smokingStatus, vector<double>& risks)

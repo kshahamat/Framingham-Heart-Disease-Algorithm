@@ -12,7 +12,7 @@
   all: $(TARGET)
  
   $(TARGET): $(TARGET).cpp
-              $(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
+              $(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp calculateRisk.cpp clearAllVectors.cpp consoleInput.cpp displayMenu.cpp printAll.cpp uploadFile.cpp
  
   clean:
               $(RM) $(TARGET)

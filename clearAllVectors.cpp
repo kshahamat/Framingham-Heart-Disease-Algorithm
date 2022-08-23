@@ -1,3 +1,10 @@
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <math.h>
+#include <cmath>
+
 //clear all data
 bool clearAllVectors(vector<string>& gender, vector<int>& age, vector<int>& totalCholesterol, vector<double>& HDL,
 	vector<double>& SBP, vector<string>& HTN, vector<string>& SmokingStatus)

@@ -1,3 +1,24 @@
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <string>
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+//declare variables
+vector<string> gender;
+vector<int> age;
+vector<int> totalCholesterol;
+vector<double> HDL;
+vector <double> SBP;
+vector <string> HTN;
+vector <string> smokingStatus;
+vector <double> riskDecided;
+double risk;
+vector <string> risks;
+vector <string> calculatedRisk;
+
 void calculateRisk(string genderInput, int ageInput, double totalCholesterolInput, double HDLInput,
 	double SBPInput, string HTN, string SmokingStatus, double risk)
 {
